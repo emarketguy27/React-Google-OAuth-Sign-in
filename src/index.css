@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 90%;
+  margin: 1em auto;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5em;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.border {
+  border: 1px solid;
+}
+.b-r {
+  border-radius: 6px;
+}
+/* .profile-pic {
+  display: inline-block;
+} */
